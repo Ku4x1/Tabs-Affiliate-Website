@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('gw.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column; /* stack logo and button */
+        }
+
+        img {
+            max-width: 200px;
+            margin-top: 50px; /* move logo down a bit from top */
+            align-self: center; /* center logo horizontally */
+        }
+
+        .button-container {
+            flex: 1; /* take remaining space */
+            display: flex;
+            justify-content: center; /* horizontal center */
+            align-items: center; /* vertical center */
+        }
+
+        .solid-btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .solid-btn:hover {
+            background-color: grey;
+        }
+
+
+         .info-section {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px;
+        flex-wrap: wrap; /* so they stack on small screens */
+    }
+
+    .info-box {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 250px;
+        text-align: center;
+        transition: transform 0.2s ease;
+    }
+
+
+    info-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .info-box h3 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .info-box p {
+        color: #555;
+        font-size: 14px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <img src="image-removebg-preview.png" alt="tabs.co">
+    
+    <div class="button-container">
+    <a href="https://www.tabs.co/discount/LOVE067676">
+    <button class="solid-btn">Get Tabs (25% off)</button>
+</a>
+    </div>
+
+<div class="info-section">
+    <div class="info-box">
+        <h3>Improves your performance in bed</h3>
+        <p>tabs is a chocolate capable of improving your sex life</p>
+    </div>
+
+
+       <div class="info-box">
+        <h3>Rich Flavor</h3>
+        <p> tabs is just not about the enhancers its also about the taste</p>
+    </div>
+
+
+    <div class="info-box">
+        <h3>Ethically Sourced</h3>
+        <p>We partner with small farms to ensure fair trade and sustainable practices.</p>
+    </div>
+
+
+
+</body>
+</html>
